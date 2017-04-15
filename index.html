@@ -9,7 +9,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700|Open+Sans:400,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 
     <link rel="stylesheet" href="Libraries/font-awesome-4.7.0/css/font-awesome.min.css">
 
@@ -19,9 +20,13 @@
 
 <body>
     <div id="banner">
-      <div><h1>Malyar Baron</h1></div>
-      <div><p>Software Developer</p></div>
-      <div class="about-me"><button class="btn btn-warning" data-toggle = "modal" data-target = "#aboutMeModal" data-modal-id="aboutMeModal">About Me</button></div>
+        <div>
+            <h1>Malyar Baron</h1>
+        </div>
+        <div>
+            <p>Software Developer</p>
+        </div>
+        <div class="about-me"><button class="btn btn-warning" data-toggle="modal" data-target="#aboutMeModal" data-modal-id="aboutMeModal">About Me</button></div>
     </div>
 
     <div class="container-full">
@@ -36,8 +41,8 @@
                 </div>
                 <div class="card-content-img">
                     <a href="http://malbaron0.github.io/911-Web-Map/" data-toggle="tooltip" title="Open 911 Web Map" class="launch-span">
-                      <span><i class="fa fa-external-link" aria-hidden="true"></i></span>
-                      <span class="launch-span">Visit Site</span>
+                        <span><i class="fa fa-external-link" aria-hidden="true"></i></span>
+                        <span class="launch-span">Visit Site</span>
 
                     </a>
                     <a href="https://github.com/Malbaron0/911-Web-Map" data-toggle="tooltip" title="Open Github"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -54,13 +59,87 @@
                 </div>
                 <div class="card-content-img">
                     <a href="http://malbaron.com/SnakeGame/" data-toggle="tooltip" title="Play Game" class="launch-span">
-                      <span><i class="fa fa-external-link" aria-hidden="true"></i></span>
-                      <span class="launch-span">Play Game</span>
+                        <span><i class="fa fa-external-link" aria-hidden="true"></i></span>
+                        <span class="launch-span">Play Game</span>
 
                     </a>
                     <a href="https://github.com/Malbaron0/SnakeGame" data-toggle="tooltip" title="Open Github"><i class="fa fa-github" aria-hidden="true"></i></a>
                 </div>
                 <p class="tech-info">Tech: Javascript, HTML/CSS, Bootstrap, Canvas</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>Whack-A-Mole</h2>
+                </div>
+                <div class="card-content-descrip">
+                    <span class="summary">Simple game of Whack-A-Mole, using basic Javascript to work the DOM. The game lasts for 15 seconds. </span>
+                </div>
+                <div class="card-content-img" data-toggle="tooltip" title="Open Video">
+                    <a href="http://malbaron.com/Whack-A-Mole/" data-toggle="tooltip" title="Play Game" class="launch-span">
+                        <span><i class="fa fa-external-link" aria-hidden="true"></i></span>
+                        <span class="launch-span">Play Game</span>
+                    </a>
+                    <a href="https://github.com/Malbaron0/Whack-A-Mole" data-toggle="tooltip" title="Open Github"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    
+                </div>
+                <p class="tech-info">Tech: Javascript, HTML/CSS, jQuery</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>BCPunchclock</h2>
+                </div>
+                <div class="card-content-descrip">
+                    <span class="summary">A fingerprint reading software that is used by staff to clock in/out. BCPunchclock is able to enroll each finger of a user to the server and once registered, it will
+                  "punch" the user in/out. I took over this project and worked on the front end (UI/UX) of the application</span>
+                </div>
+                <div class="card-content-img" data-toggle="tooltip" title="Open Video">
+                    <a id="punchclock-app-ref" href="#myModal" data-toggle="modal" class="launch-modal launch-span" data-modal-id="myModal">
+                        <span><i class="fa fa-play"></i></span>
+                        <span class="launch-span">Launch Demo</span>
+                    </a>
+                </div>
+                <p class="tech-info">Tech: C#, XAML</p>
+            </div>
+
+            
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>Random Quote Generator</h2>
+                </div>
+                <div class="card-content-descrip">
+                    <span class="summary">Display a random quote by making an AJAX call to an API ("andruxnet-random-famous-quotes") that will generate the random quote. There is also
+                        an option to tweet the displayed quote. Using vanilla Javascript to mannipulate the DOM </span>
+                </div>
+                <div class="card-content-img" data-toggle="tooltip" title="Open Video">
+                    <a href="http://malbaron.com/RandomQuote/" data-toggle="tooltip" title="Play Game" class="launch-span">
+                        <span><i class="fa fa-external-link" aria-hidden="true"></i></span>
+                        <span class="launch-span">Visit Site</span>
+                    </a>
+                    <a href="https://github.com/Malbaron0/RandomQuote" data-toggle="tooltip" title="Open Github"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    
+                </div>
+                <p class="tech-info">Tech: Javascript, AJAX, Promises, HTML/CSS</p>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>Clock-JS</h2>
+                </div>
+                <div class="card-content-descrip">
+                    <span class="summary">Simple Analog Clock using Javascript</span>
+                </div>
+                <div class="card-content-img" data-toggle="tooltip" title="Open Video">
+                    <a href="http://malbaron.com/Clock-JS/" data-toggle="tooltip" title="Play Game" class="launch-span">
+                        <span><i class="fa fa-external-link" aria-hidden="true"></i></span>
+                        <span class="launch-span">Visit Site</span>
+                    </a>
+                    <a href="https://github.com/Malbaron0/Clock-JS" data-toggle="tooltip" title="Open Github"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    
+                </div>
+                <p class="tech-info">Tech: Javascript, HTML/CSS</p>
             </div>
 
             <div class="card">
@@ -72,30 +151,13 @@
                     Below is a video demo of the application in action. </span>
                 </div>
                 <div class="card-content-img" data-toggle="tooltip" title="Open Video">
-                    <a id = "android-app-ref" href="#myModal" data-toggle="modal" class="launch-modal launch-span" data-modal-id="myModal">
+                    <a id="android-app-ref" href="#myModal" data-toggle="modal" class="launch-modal launch-span" data-modal-id="myModal">
                         <span><i class="fa fa-play"></i></span>
                         <span class="launch-span">Launch Demo</span>
                     </a>
                     <a href="https://github.com/Malbaron0/Headline-Android-Application" data-toggle="tooltip" title="Open Github"><i class="fa fa-github" aria-hidden="true"></i></a>
                 </div>
                 <p class="tech-info">Tech: Java, XML</p>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <h2>BCPunchclock</h2>
-                </div>
-                <div class = "card-content-descrip">
-                  <span class="summary">A fingerprint reading software that is used by staff to clock in/out. BCPunchclock is able to enroll each finger of a user to the server and once registered, it will
-                  "punch" the user in/out. I took over this project and worked on the front end (UI/UX) of the application</span>
-                </div>
-                <div class="card-content-img" data-toggle="tooltip" title = "Open Video">
-                  <a id = "punchclock-app-ref" href="#myModal" data-toggle="modal" class="launch-modal launch-span" data-modal-id="myModal">
-                    <span><i class="fa fa-play"></i></span>
-                    <span class="launch-span">Launch Demo</span>
-                  </a>
-                </div>
-                <p class="tech-info">Tech: C#, XAML</p>
             </div>
 
             <div class="card">
@@ -129,9 +191,9 @@
                     </button>
                 </div>
                 <div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe id="myVideo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe id="myVideo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -140,26 +202,30 @@
 
 
     <!--About me Modal-->
-    <div id = "aboutMeModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"  aria-labelledby="myLargeModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <ul class="list-inline">
-              <li><img src = "Media/images/profile-picture.png"></li>
-            </ul>
-          </div>
-          <div class="modal-body">
-            <p>If you are here then it's more likely you are looking for a software developer, well look no further. At the moment, I am a part time c#/wpf (Model View ViewModel) developer at Brooklyn College.
-              However, I also love javascript and its many libraries/frameworks, and with each project I always learn something new. My first actual programming experience started around the end of 2015, and I have grown very passionate about it. I am hoping to build more projects and grow more powerful
-              as a programmer/builder.</p>
-              <p>So if you are looking for someone who is passionate about programming yet also as cool as a cucumber to build you amazing applications, I would love to hear from you.</p>
-              <p>Contact me at <a href="mailto:malbaron0@gmail.com" data-toggle="tooltip" title="Contact me">malbaron0@gmail.com</a></p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss = "modal">Leave About Me</button>
-          </div>
+    <div id="aboutMeModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <ul class="list-inline">
+                        <li><img src="Media/images/profile-picture.png"></li>
+                    </ul>
+                </div>
+                <div class="modal-body">
+                    <p>If you are here then it's more likely you are looking for a software developer, well look no further.
+                        At the moment, I am a part time c#/wpf (Model View ViewModel) developer at Brooklyn College. However,
+                        I also love javascript and its many libraries/frameworks, and with each project I always learn something
+                        new. My first actual programming experience started around the end of 2015, and I have grown very
+                        passionate about it. I am hoping to build more projects and grow more powerful as a programmer/builder.</p>
+                    <p>So if you are looking for someone who is passionate about programming yet also as cool as a cucumber
+                        to build you amazing applications, I would love to hear from you.</p>
+                    <p>Contact me at <a href="mailto:malbaron0@gmail.com" data-toggle="tooltip" title="Contact me">malbaron0@gmail.com</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Leave About Me</button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- jquery -->
