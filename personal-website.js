@@ -11,10 +11,10 @@ $("#android-app-ref").click(function(){
   document.getElementById('myVideo').setAttribute("src", "https://player.vimeo.com/video/203526410");
 });
 
-$("#bookscanner-app-ref").click(function(){
-  document.getElementById('myVideo').setAttribute("src", "https://player.vimeo.com/video/203526011");
-});
+// $("#bookscanner-app-ref").click(function(){
+//   document.getElementById('myVideo').setAttribute("src", "https://player.vimeo.com/video/203526011");
+// });
 
-$("#punchclock-app-ref").click(function(){
-  document.getElementById('myVideo').setAttribute("src", "https://player.vimeo.com/video/203523141");
-});
+// $("#punchclock-app-ref").click(function(){
+//   document.getElementById('myVideo').setAttribute("src", "https://player.vimeo.com/video/203523141");
+// });
